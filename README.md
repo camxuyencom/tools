@@ -44,7 +44,7 @@ mongodb/bin/mongod.cnf
 mongodb/data/log
 mongodb/data/db
 
-Run command install mongodb as services
+Run command install mongodb as services (Administrative Privileges)
 
 ```
 $>D:\www\mongodb\bin\mongod.exe --config D:\www\mongodb\bin\mongod.cfg --install
