@@ -9,3 +9,19 @@ Install Apache2 as services
 $>httpd.exe -k install -n "Apache2"
 
 $>httpd.exe -k uninstall
+
+------------------------------------------------------------------
+Config php into apache2
+httpd.conf
+#
+# PHP-Module setup
+#
+LoadFile "C:/php/php7ts.dll"
+LoadModule php7_module "C:/php/php7apache2_4.dll"
+
+<FilesMatch "\.php$">
+    SetHandler application/x-httpd-php
+</FilesMatch>
+<FilesMatch "\.phps$">
+    SetHandler application/x-httpd-php-source
+</FilesMatch>
