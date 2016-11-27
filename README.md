@@ -13,6 +13,8 @@ $>httpd.exe -k uninstall
 ------------------------------------------------------------------
 Config php into apache2
 httpd.conf
+
+```bash
 #
 # PHP-Module setup
 #
@@ -25,3 +27,4 @@ LoadModule php7_module "C:/php/php7apache2_4.dll"
 <FilesMatch "\.phps$">
     SetHandler application/x-httpd-php-source
 </FilesMatch>
+```
