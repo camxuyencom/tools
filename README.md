@@ -35,13 +35,11 @@ create
 
 mongodb/bin/mongod.cnf
 
-    ```bash
     systemLog:
         destination: file
         path: D:/www/mongodb/data/log/mongod.log
     storage:
         dbPath: D:/www/mongodb/data/db
-    ```
     
 mongodb/data/log
 mongodb/data/db
