@@ -49,3 +49,7 @@ Run command install mongodb as services (Administrative Privileges)
 ```
 $>D:\www\mongodb\bin\mongod.exe --config D:\www\mongodb\bin\mongod.cfg --install
 ```
+
+Install MySQL
+
+    $>D:\www\MySQL\MySql\bin\mysqld --install MySQL 
