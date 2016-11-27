@@ -52,4 +52,6 @@ $>D:\www\mongodb\bin\mongod.exe --config D:\www\mongodb\bin\mongod.cfg --install
 
 Install MySQL
 
-    $>D:\www\MySQL\bin\mysqld --install MySQL 
+    $>D:\www\MySQL\bin\mysqld.exe --initialize-insecure
+    $>D:\www\MySQL\bin\mysqld --install MySQL
+    $>D:\www\MySQL\bin\mysql_secure_installation.exe
